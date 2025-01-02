@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "healer-api",
+	"version": "${version}",
+	"name": "Healer API",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/healer-api/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.healer.HealerAPI"
+		],
+		"fabric-datagen": [
+			"net.healer.HealerAPIDataGenerator"
+		]
+	},
+	"mixins": [
+		"healer-api.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
