@@ -32,10 +32,10 @@ public class BlockHelper {
         return new LeavesBlock(AbstractBlock.Settings.create().mapColor(mapColor).strength(0.2F).ticksRandomly().sounds(BlockSoundGroup.GRASS).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never));
     }
 
-    public static Block createLogBlock(MapColor topMapColor, MapColor sideMapColor, BlockSoundGroup soundGroup) {
+    public static Block createLogBlock(MapColor topMapColor, MapColor sideMapColor) {
         return new PillarBlock(AbstractBlock.Settings.create().mapColor((state) -> {
             return state.get(PillarBlock.AXIS) == Direction.Axis.Y ? topMapColor : sideMapColor;
-        }).instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(soundGroup).burnable());
+        }).instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable());
     }
 
     public static Block createNetherStemBlock(MapColor mapColor) {
