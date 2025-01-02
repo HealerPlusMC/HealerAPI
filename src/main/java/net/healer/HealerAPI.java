@@ -2,6 +2,7 @@ package net.healer;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.healer.block.BlockHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +12,7 @@ public class HealerAPI implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		BlockHelper.register();
 
 	}
 }
