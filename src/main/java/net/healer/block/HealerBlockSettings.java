@@ -19,15 +19,6 @@ public final class HealerBlockSettings {
 
 
 
-
-
-
-
-
-
-
-
-
     /* Wood */
 
     public static Block createLogBlock(MapColor TopMapColor, MapColor sideMapColor, BlockSoundGroup BlockSoundGroup) {
