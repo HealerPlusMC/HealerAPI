@@ -1,0 +1,6 @@
+jdk:
+  - openjdk21
+before_install:
+  - echo "Hello jitpack.yml before_install"
+  - sdk install java 21.0.4.7-open
+  - sdk use java 21.0.4.7-open
