@@ -1,0 +1,3 @@
+
+src/main/generated/**/.cache/cache text eol=lf
+src/main/generated/**/*.json text eol=lf
