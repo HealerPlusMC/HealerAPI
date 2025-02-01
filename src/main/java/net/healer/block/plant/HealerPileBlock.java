@@ -21,7 +21,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class HealerPileBlock extends BushBlock implements SimpleWaterloggedBlock {
     public static final MapCodec<HealerPileBlock> CODEC = simpleCodec(HealerPileBlock::new);
-    public static final VoxelShape SHAPE = Shapes.box(0.0D, 0.0D, 0.0D, 1.0D, 0.0625D, 1.0D); // مكعب بارتفاع 1 بكسل
+    public static final VoxelShape SHAPE = Shapes.box(0.0D, 0.0D, 0.0D, 1.0D, 0.0625D, 1.0D);
 
     public HealerPileBlock(Properties properties) {
         super(properties);
