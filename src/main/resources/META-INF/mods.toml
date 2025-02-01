@@ -30,4 +30,3 @@ logoFile="assets/healer/icon.png"
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
-
