@@ -11,10 +11,18 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
+import java.util.HashSet;
+import java.util.Set;
+
+
 @Mod(HealerAPI.MOD_ID)
 public class HealerAPI {
     public static final String MOD_ID = "healer";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
+
+    private static final Set<String> visitedWorlds = new HashSet<>();
+
+
 
 
     private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
