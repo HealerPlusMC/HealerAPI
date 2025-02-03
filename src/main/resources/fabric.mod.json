@@ -29,25 +29,34 @@
 	"suggests": {
 		"another-mod": "*"
 	},
+
 	"custom": {
 		"modmenu": {
 			"links": {
 				"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/",
 				"modmenu.modrinth": "https://modrinth.com/mod/",
-				"modmenu.github": "https://github.com/HealerPlusMC/HealerAPI"
-			}
-		},
-		"modupdater": {
-			"strategy": "curseforge",
-			"projectID": 399648
-		},
-		"mc-publish": {
-			"curseforge": 399648,
-			"modrinth": "GuE5FpvB",
-			"loaders": [
-				"fabric",
-				"quilt"
-			]
+				"modmenu.github_releases": "https://github.com/HealerPlusMC/HealerAPI/releases/",
+				"modmenu.discord": "https://discord.gg/VVztDJgJ",
+				"modmenu.facebook": "https://facebook.com/@HealerPlusMC",
+				"modmenu.youtube": "https://youtube.com/@HealerPlusMC",
+				"modmenu.twitter": "https://twitter.com/@HealerPlusMC"
+			},
+			"badges": [ "library"],
+			"update_checker": true
 		}
+	},
+
+	"modupdater": {
+		"strategy": "curseforge",
+		"projectID": 399648
+	},
+
+	"mc-publish": {
+		"curseforge": 399648,
+		"modrinth": "GuE5FpvB",
+		"loaders": [
+			"fabric",
+			"quilt"
+		]
 	}
 }
