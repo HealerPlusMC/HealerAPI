@@ -1,6 +1,6 @@
-**[![Healer API](https://HealerPlusMC.github.io/Projects/HealerAPI/Images/Healer%20API.jpeg)](https://HealerPlusMC.github.io/Index#Home)
+[![Healer API](https://HealerPlusMC.github.io/Projects/HealerAPI/Images/Healer%20API.jpeg)](https://HealerPlusMC.github.io/Index#Home)
 
-# 🍉 Healer API 
+# 🍉 Healer API
 
 
 [![Latest Release](https://img.shields.io/github/release/HealerPlusMC/HealerAPI.svg)](https://github.com/HealerPlusMC/HealerAPI/releases/latest)
@@ -34,7 +34,7 @@ healer_version = [VERSION]
 Where [VERSION] is the version of Healer API you want to use.
 You Can See all Releases from This Link [Latest Release](https://github.com/HealerPlusMC/HealerAPI/releases/latest)
 
-## Features
+## 🎨 Features
 
 
 
